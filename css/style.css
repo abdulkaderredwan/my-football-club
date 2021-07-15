@@ -1,0 +1,48 @@
+/* common styles */
+
+body{
+    font-family: poppins;
+    margin: 0;
+}
+
+/* banner section styles */
+.banner-sec{
+    background-color: #2D25A0;
+    height: 677px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-info{
+    width: 485px;
+    margin-left: 156px;
+}
+.banner-info .banner-title{
+    color: white;
+    font-size: 60px;
+    line-height: 80px;
+    margin: 0;
+    margin-bottom: 27px;
+}
+.live-link{
+    font-size: 16px;
+    width: 168px;
+    height: 44px;
+    border-radius: 5px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+    text-decoration: none;
+}
+.banner-img img{
+    width: 556.01px;
+    height: 456px;
+    margin-right: 140px;
+}
+.player-container{
+    display: flex;
+}
+.player-info{
+    display: flex;
+    flex-direction: column;
+}
